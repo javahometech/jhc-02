@@ -1,3 +1,4 @@
-environment {
-  NAME = "Hari"
-}
+
+NAME = "Hari"
+LOCATION = "Banglore"
+
