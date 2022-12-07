@@ -1,10 +1,13 @@
 pipeline{
   agent any
+  environment{
+    load 'hari.groovy'
+  }
   stages{
     stage("Load Demo"){
       steps{
         echo "Hello"
-        load 'hari.groovy'
+        sh "printenv"
       }
     }
   }
