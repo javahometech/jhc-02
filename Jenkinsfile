@@ -4,6 +4,7 @@ pipeline{
     stage("Load Demo"){
       steps{
         echo "Hello"
+        load 'hari.groovy'
       }
     }
   }
