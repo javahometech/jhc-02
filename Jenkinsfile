@@ -14,7 +14,7 @@ pipeline{
     }
     stage("Load Demo"){
       steps{
-        sh "printenv | grep DEMO"
+        sh "printenv"
       }
     }
     stage("Load Two"){
