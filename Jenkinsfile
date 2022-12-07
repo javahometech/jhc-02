@@ -7,10 +7,14 @@ pipeline{
   }
 
   stages{
-    stage("Load Demo"){
+    stage("Load ENV"){
       steps{
         load 'hari.groovy'
-        //sh "printenv"
+      }
+    }
+    stage("Load Demo"){
+      steps{
+        sh "printenv | grep DEMO"
       }
     }
     stage("Load Two"){
