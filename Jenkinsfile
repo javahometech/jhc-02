@@ -1,8 +1,8 @@
 pipeline{
   agent any
-  environment{
-    load 'hari.groovy'
-  }
+  
+  load 'hari.groovy'
+
   stages{
     stage("Load Demo"){
       steps{
