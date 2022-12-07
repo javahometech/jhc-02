@@ -3,7 +3,7 @@ pipeline{
   agent any
   
   environment{
-    DEMO = "DEMO"
+    SINGLE_KEY=credentials('singlekey')
   }
 
   stages{
