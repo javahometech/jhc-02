@@ -1,3 +1,3 @@
-def add(x,y){
-  retun x+y
+environment {
+  NAME = "Hari"
 }
