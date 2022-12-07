@@ -9,7 +9,7 @@ pipeline{
   stages{
     stage("Load ENV"){
       steps{
-        load 'hari.groovy'
+        load 'env.groovy'
       }
     }
     stage("Load Demo"){
